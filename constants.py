@@ -21,7 +21,7 @@ NEEDED_PCKGS = ['make','createrepo', 'dwarves','tree' ,'gdb', 'gcc', 'autofs', '
                 'python-devel','libnl-devel','xhtml1-dtds','createrepo','httpd','readline-devel',
                 'ncurses-devel', 'augeas', 'libudev-devel', 'libpciaccess-devel', 'yajl-devel', 'sanlock-devel',
                 'libpcap-devel', 'avahi-devel', 'parted-devel' ,'device-mapper-devel', 'numactl-devel', 'libcap-ng-devel',
-                'libssh2-devel', 'libblkid-devel','libselinux-devel','cyrus-sasl-devel', 'xen-devel','qemu-img','dnsmasq','poolkit','iscsi-initiator-utils',
+                'libssh2-devel', 'libblkid-devel','libselinux-devel','cyrus-sasl-devel', 'xen-devel','qemu-img','dnsmasq','iscsi-initiator-utils',
                 'netcf-devel', 'libcurl-devel', 'libwsman-devel', 'audit-libs-devel', 'systemtap-sdt-devel','radvd','ebtables']
 
 HOSTS = []
