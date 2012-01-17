@@ -52,4 +52,5 @@ SITE = 'http://koji.fedoraproject.org/koji/packageinfo?packageID='
 BASE = 'http://kojipkgs.fedoraproject.org/packages/'
 POSTFIX = '/x86_64/'
 SLASH = '/'
+NOARCH = 'noarch'
 
