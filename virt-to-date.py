@@ -145,6 +145,9 @@ def downloadPackage(proj=None):
         url = ''.join([c.BASE,proj,'/',majorVer,'/',minorVer,'/',src])
         cmd = ['wget', '-r', '-l1', '-H', '-t1', '-nd', '-N', '-q','-np', '-A.rpm', '-erobots=off', url, '--directory-prefix=/root/rpmbuild/RPMS/x86_64']
         return utils.execCommand(cmd)
+    elif proj in ('sgabios-bin','seabios-bin'):
+        url = ''.join([c.BASE,proj,'/',majorVer,'/',minorVer,'/',noarch])
+        cmd = ['wget', '-r', '-l1', '-H', '-t1', '-nd', '-N', '-q','-np', '-A.rpm', '-erobots=off', url, '--directory-prefix=/root/rpmbuild/RPMS/x86_64']
     else:
         url = ''.join([c.BASE,proj,'/',majorVer,'/',minorVer,'/',POSTFIX])
         cmd = ['wget', '-r', '-l1', '-H', '-t1', '-nd', '-N', '-q','-np', '-A.rpm', '-erobots=off', url, '--directory-prefix=/root/rpmbuild/RPMS/x86_64']

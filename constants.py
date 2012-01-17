@@ -21,7 +21,7 @@ NEEDED_PCKGS = ['make','createrepo', 'dwarves','tree' ,'gdb', 'gcc', 'autofs', '
                 'python-devel','libnl-devel','xhtml1-dtds','createrepo','httpd','readline-devel',
                 'ncurses-devel', 'augeas', 'libudev-devel', 'libpciaccess-devel', 'yajl-devel', 'sanlock-devel',
                 'libpcap-devel', 'avahi-devel', 'parted-devel' ,'device-mapper-devel', 'numactl-devel', 'libcap-ng-devel',
-                'libssh2-devel', 'libblkid-devel','libselinux-devel','cyrus-sasl-devel', 'xen-devel',
+                'libssh2-devel', 'libblkid-devel','libselinux-devel','cyrus-sasl-devel', 'xen-devel','qemu-img','dnsmasq','poolkit','iscsi-initiator-utils',
                 'netcf-devel', 'libcurl-devel', 'libwsman-devel', 'audit-libs-devel', 'systemtap-sdt-devel','radvd','ebtables']
 
 HOSTS = []
@@ -45,7 +45,7 @@ PKGS = {'sanlock':'11619','systemd':'10477',
         'perl-Net-Telnet':'1155','perl':'84',
         'pexpect':'3366','python-suds':'7092',
         'seabios':'9765','sg3_utils':'923',
-        'telnet':'690','vgabios':'7853',
+        'telnet':'690','vgabios':'7853','seabios':'9765','seabios-bin':'9765','sgabios':'13001','sgabios-bin':'13001',
         'OpenIPMI':'568','gpxe':'8390', 'gdbm':'1042', 'spice':'10623', 'spice-protocol':'10624'}
 
 SITE = 'http://koji.fedoraproject.org/koji/packageinfo?packageID='
