@@ -140,6 +140,7 @@ def downloadPackage(proj=None):
     minorVer = rpm.split('-')[-1:][0]
     src = 'src'
     POSTFIX = '/x86_64/'
+    noarch = 'noarch'
     if proj in ('dracut','gpxe','perl-Net-Telnet',
                 'vgabios','pexpect','python-suds', 'spice-protocol'):
         url = ''.join([c.BASE,proj,'/',majorVer,'/',minorVer,'/',src])
